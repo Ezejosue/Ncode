@@ -1,0 +1,19 @@
+html {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.nav-content{
+  flex-wrap: nowrap;
+
+}
+.nav-li{
+    font-size: 1.4rem;
+}
+
+.main-container-section p{
+    font-size: 1.5rem;
+   
+}

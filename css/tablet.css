@@ -1,0 +1,24 @@
+.header{
+  height: 10rem;
+
+}
+
+.header-nav{
+    height: 6rem;
+}
+
+.nav-content{
+  flex-wrap: nowrap;
+  height: 4rem;
+
+}
+
+.nav-li{
+    font-size: 1.3rem;
+    height: 4rem;
+}
+
+
+.container-section-box{
+    height: 10rem;
+}
