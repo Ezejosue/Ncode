@@ -17,3 +17,9 @@ html {
     font-size: 1.5rem;
    
 }
+
+.footer p{
+  font-size: 1.8rem;
+  margin-right: 3rem;
+  margin-left: 0;
+}

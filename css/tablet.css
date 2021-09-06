@@ -1,24 +1,52 @@
-.header{
+.header {
   height: 10rem;
-
 }
 
-.header-nav{
-    height: 6rem;
+.header-nav {
+  height: 6rem;
 }
 
-.nav-content{
+.nav-content {
   flex-wrap: nowrap;
   height: 4rem;
-
 }
 
-.nav-li{
-    font-size: 1.3rem;
-    height: 4rem;
+.nav-li {
+  font-size: 1.3rem;
+  height: 4rem;
+}
+
+.container-section-box {
+  height: 10rem;
 }
 
 
-.container-section-box{
-    height: 10rem;
+.footer-redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
 }
+
+.footer p{
+  font-size: 1.8rem;
+}
+
+#red1 {
+  width: 12%;
+  float: left;
+  margin: 1rem;
+}
+#red2 {
+  width: 12%;
+  float: left;
+  margin: 1rem;
+}
+#red3 {
+  width: 12%;
+  float: left;
+  margin: 1rem;
+}
+
+
+
