@@ -85,7 +85,7 @@ body {
 }
 
 .main-container-section {
-  background-image: url(../images/BannerUnoV2.jpg);
+  background-image: url("https://i.imgur.com/6qM9aSO.jpg");
   background-position: center;
   display: flex;
   width: 100%;
