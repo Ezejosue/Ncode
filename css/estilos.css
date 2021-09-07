@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: rgb(33, 104, 105);
+  background-color: #f0f0f0;
 }
 
 .header {
@@ -181,14 +181,11 @@ body {
 }
 
 #red1 {
-  width: 16%;
-  margin: 1rem;
+  width: 20%;
 }
 #red2 {
-  width: 16%;
-  margin: 1rem;
+  width: 20%;
 }
 #red3 {
-  width: 16%;
-  margin: 1rem;
+  width: 20%;
 }
