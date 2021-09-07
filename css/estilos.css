@@ -164,7 +164,7 @@ body {
   color: #fff;
 }
 
-.footer p{
+.footer p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,12 +180,25 @@ body {
   width: 80%;
 }
 
+#red1:hover {
+  background-color: rgb(193, 211, 226);
+}
+#red2:hover {
+  background-color: rgb(193, 211, 226);
+}
+#red3:hover {
+  background-color: rgb(193, 211, 226);
+}
+
 #red1 {
   width: 20%;
+  border-radius: 100%;
 }
 #red2 {
   width: 20%;
+  border-radius: 100%;
 }
 #red3 {
   width: 20%;
+  border-radius: 100%;
 }

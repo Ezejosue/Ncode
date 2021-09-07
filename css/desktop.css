@@ -20,6 +20,22 @@ html {
 
 .footer p{
   font-size: 1.8rem;
-  margin-right: 3rem;
-  margin-left: 0;
+  margin-right: 4rem;
 }
+
+#red1 {
+  width: 10%;
+  float: left;
+  margin: 1rem;
+}
+#red2 {
+  width: 10%;
+  float: left;
+  margin: 1rem;
+}
+#red3 {
+  width: 10%;
+  float: left;
+  margin: 1rem;
+}
+
