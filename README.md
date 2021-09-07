@@ -1,4 +1,4 @@
-# Ncode &#9749
+# Ncode :coffee:
 
 Landing page built with HTML & CSS.
 
