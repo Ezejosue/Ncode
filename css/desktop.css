@@ -18,6 +18,12 @@ html {
    
 }
 
+.main-container-articule p{
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
 .footer p{
   font-size: 1.8rem;
   margin-right: 4rem;
