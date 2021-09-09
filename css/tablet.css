@@ -41,6 +41,25 @@
   width: 100%;
 }
 
+.main-video{
+    display: grid;
+    justify-content:center;
+    align-items:flex-start;
+    justify-items:end;
+    margin: auto 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+.main-section{
+    width: 95%;
+    background-color: rgb(31, 36, 33);
+    font-size: 1.8rem;
+    color: #e7dbdb;
+}
+
+
 .footer-redes {
   display: flex;
   align-items: center;
