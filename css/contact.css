@@ -1,0 +1,93 @@
+.container {
+  max-width: 40rem;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 1.2rem/1.6rem "Arial";
+}
+
+#contact {
+  background: #f9f9f9;
+  padding: 2.5rem;
+  margin: 5rem 0;
+}
+
+#contact h3 {
+  color: rgb(29, 27, 27);
+  display: block;
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin: 0.5rem 0 1.5rem;
+  display: block;
+  font-size: 1.3rem;
+}
+
+fieldset {
+  border: medium none;
+  margin: 0 0 1rem;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 0.1rem solid #ccc;
+  background: #fff;
+  margin: 0 0 0.5rem;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  border: 0.1rem solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(0, 105, 68);
+  color: #fff;
+  margin: 0 0 0.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+#contact button[type="submit"]:hover {
+  background: rgb(3, 145, 95);
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 0.1rem solid #999;
+}
