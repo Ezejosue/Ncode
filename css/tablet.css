@@ -13,16 +13,17 @@
 .nav-content {
   flex-wrap: nowrap;
   height: 4rem;
+  justify-content: space-around;
+  background-color: rgb(31, 36, 33);
+
 }
 
 .nav-li {
   font-size: 1.3rem;
   height: 4rem;
+  width: auto;
 }
 
-.container-section-box {
-  height: 10rem;
-}
 
 .main-container-articule p {
   font-weight: bold;
@@ -39,6 +40,7 @@
 
 .footer p {
   font-size: 1.8rem;
+  margin-right: 1rem;
 }
 
 #red1 {

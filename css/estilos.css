@@ -1,3 +1,7 @@
+:root {
+  --color: #e7dbdb;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,10 +10,14 @@
 
 html {
   font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .header {
@@ -24,11 +32,12 @@ body {
   display: flex;
   width: 20%;
   height: 6rem;
+  margin-left: 1rem;
   align-items: center;
   justify-content: center;
 }
 
-.header-logo a{
+.header-logo a {
   width: 100%;
 }
 
@@ -41,7 +50,6 @@ body {
 .header-nav {
   display: flex;
   width: 100%;
-  height: 14rem;
   margin-top: auto;
 }
 
@@ -62,7 +70,7 @@ body {
   align-items: center;
   background-color: rgb(31, 36, 33);
   text-decoration: none;
-  color: white;
+  color: var(--color);
   font-size: 1.4rem;
 }
 
@@ -74,13 +82,13 @@ body {
   background-color: rgb(51, 172, 172);
 }
 
+.main {
+  margin: auto 0;
+}
+
 .main-container {
-  display: flex;
-  align-items: initial;
-  justify-content: initial;
   width: 100%;
-  height: 60rem;
-  margin: 2rem auto;
+  height: 78rem;
   flex-wrap: wrap;
 }
 
@@ -88,49 +96,64 @@ body {
   background-image: url("https://i.imgur.com/6qM9aSO.jpg");
   background-position: center;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  height: 20rem;
+  height: 36rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  color: white;
+  color: var(--color);
 }
 
 .main-container-section h1 {
   width: 30%;
-  height: 10rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
+  height: auto;
+  text-align: center;
+  margin: 0 1rem;
+  margin-top: 1.6rem;
 }
 
 .container-section-box {
   background-color: black;
   opacity: 0.8;
-  margin-top: 1rem;
+  margin: 0 1rem;
+  margin-top: 1.6rem;
   margin-left: 1rem;
   width: 70%;
-  height: 16rem;
+  height: auto;
+  padding: 1.2rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.container-section-box h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 
 .main-container-section p {
   text-align: center;
-  font-size: 1.4rem;
   font-weight: bold;
   width: 100%;
-  color: white;
+  color: rgb(236, 228, 228);
 }
 
 .section-decoration p {
   margin-top: 1rem;
   text-decoration: underline;
-  color: white;
+  color: var(--color);
 }
 
 .main-container-imag {
   display: flex;
   width: 100%;
-  height: 20rem;
-  background-color: #006944;
-  color: white;
+  background: rgb(0, 105, 68);
+  background: linear-gradient(
+    119deg,
+    rgba(0, 105, 68, 1) 0%,
+    rgba(20, 179, 122, 1) 60%
+  );
+  color: var(--color);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -138,22 +161,24 @@ body {
   display: flex;
   align-items: center;
   justify-items: center;
+  flex-direction: column;
   margin: 0 auto;
+  padding: 2.4rem 1rem;
 }
 
-.container-imag-text .imag-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.imag-text {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
 }
 
 .container-imag-text p {
+  text-align: center;
   font-size: 1.6rem;
   font-weight: bold;
   margin-left: 1rem;
 }
 
-.main-container-articule{
+.main-container-articule {
   text-align: center;
   width: 100%;
   height: 20rem;
@@ -161,38 +186,39 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-container-articule p{
-  font-weight: bold;
-  margin-top: 1rem;
+.main-container-articule p {
+  color: rgb(43, 39, 39);
+  margin: 1rem 0.5rem;
+  text-align: center;
 }
 
-.container-articule-figure{
+.container-articule-figure {
   width: 100%;
   height: 10rem;
   display: flex;
   margin-top: 1rem;
 }
 
-.figure-imag{
+.figure-imag {
   width: 33.3%;
   height: 10rem;
- 
 }
 
 .footer {
   font-size: 1.4rem;
   display: flex;
   background-color: rgb(31, 36, 33);
+  justify-content: space-between;
   width: 100%;
   height: 6rem;
-  color: #fff;
+  color: var(--color);
+  margin-top: auto;
 }
 
 .footer p {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 2rem;
   font-weight: bold;
   font-size: 1.4rem;
 }

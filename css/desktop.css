@@ -13,10 +13,6 @@ html {
     font-size: 1.4rem;
 }
 
-.main-container-section p{
-    font-size: 1.5rem;
-   
-}
 
 .main-container-articule p{
   font-weight: bold;
@@ -24,10 +20,6 @@ html {
   font-size: 2rem;
 }
 
-.footer p{
-  font-size: 1.8rem;
-  margin-right: 4rem;
-}
 
 #red1 {
   width: 10%;
